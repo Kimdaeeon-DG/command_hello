@@ -4,10 +4,10 @@ remote repository of git_tutorial
 
 1. git tag
 -> git tag 1.0 // tag를 1로 설정
-   git log -3  // 로그를 3개 보겠다. (숫자만큼 나옴)
-   git show-ref --tags  // tag들의 주소와 태그를 다 보겠다.
-   git tag -a 0.8 3889  // commit 주소의 앞자리 4개를 적고 태그를 0.8로 설정 후 추가적으로 메모하겠다. (빔에디터로 들어가짐)
-   git tag -l // 태그들 이름만 다 나옴
+-> git log -3  // 로그를 3개 보겠다. (숫자만큼 나옴)
+-> git show-ref --tags  // tag들의 주소와 태그를 다 보겠다.
+-> git tag -a 0.8 3889  // commit 주소의 앞자리 4개를 적고 태그를 0.8로 설정 후 추가적으로 메모하겠다. (빔에디터로 들어가짐)
+-> git tag -l // 태그들 이름만 다 나옴
    
 3. git commit --amend
 -> git commit --amend // 이렇게 하면 vim으로 들어가서 바꿀 수 있음.
